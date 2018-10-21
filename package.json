@@ -1,0 +1,36 @@
+{
+  "name": "artwillsaveus",
+  "version": "1.0.0",
+  "description": "Photo portfolio of JPBelley",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.24.6",
+    "gift": "^0.10.2",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-gh-pages": "^0.5.4",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-plumber": "^1.2.0",
+    "gulp-sass": "^4.0.1",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^3.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JPBelley/artwillsaveus.git"
+  },
+  "keywords": [
+    "photo"
+  ],
+  "author": "JPBelley",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JPBelley/artwillsaveus/issues"
+  },
+  "homepage": "https://github.com/JPBelley/artwillsaveus#readme"
+}
