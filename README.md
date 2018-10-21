@@ -1,2 +1,0 @@
-# artwillsaveus
-My photography portfolio
