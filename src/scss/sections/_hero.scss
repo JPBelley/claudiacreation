@@ -3,8 +3,9 @@
   justify-content: center;
   align-items: flex-end;
   background-repeat: no-repeat;
-  background-position: center center;
-  background-size: contain;
+  background-position: top center;
+  background-position-y: -20px;
+  background-size: cover;
   height: calc(100vh - 70px);
   width: 100%;
   margin-top: 70px;
@@ -14,7 +15,12 @@
     content: "";
     position: absolute;
     top: 0; right: 0; bottom: 0; left: 0;
-    // background-image: linear-gradient(transparent, $light-black-opacity);
+    background-image: linear-gradient(transparent, $light-black-opacity);
     pointer-events: none;
+  }
+
+  h1 a {
+    font-size: 25px;
+    font-weight: bold;
   }
 }

@@ -26,7 +26,7 @@ h1 {
 
 a {
   text-decoration: none;
-  color: white;
+  color: $white;
   font-weight: 100;
 }
 
@@ -130,7 +130,7 @@ h1:hover::after {
     content: "";
     width: 25px;
     height: 2px;
-    background-color: $white;
+    background-color: $black;
     position: absolute;
     top: 15px; right: 0;
     transform: rotate(45deg);
@@ -140,7 +140,7 @@ h1:hover::after {
     content: "";
     width: 25px;
     height: 2px;
-    background-color: $white;
+    background-color: $black;
     position: absolute;
     top: 15px; right: 0;
     transform: rotate(315deg);
